@@ -23,7 +23,6 @@
     },
     "info_url": "https://sepolia.etherscan.io",
     "chain_id": 11155111,
-    "network_id": 11155111,
     "explorers": [
         {
             "name": "etherscan-sepolia",

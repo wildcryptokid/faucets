@@ -1,0 +1,31 @@
+{
+    "name": "Amoy",
+    "title": "Polygon Testnet Amoy",
+    "chain": "Polygon",
+    "rpc": [
+        "https://rpc-amoy.polygon.technology"
+    ],
+    "faucets": [
+        {
+            "name": "polygon amoy faucet",
+            "url": "https://faucet.polygon.technology",
+            "requirements": "discord account",
+            "limits": [
+                "0.2 amoy testnet POL per request"
+            ]
+        }
+    ],
+    "native_currency": {
+        "name": "amoy testnet POL",
+        "symbol": "POL",
+        "decimals": 18
+    },
+    "info_url": "https://amoy.polygonscan.com",
+    "chain_id": 80002,
+    "explorers": [
+        {
+            "name": "polygonscan-amoy",
+            "url": "https://amoy.polygonscan.com/"
+        }
+    ]
+}
