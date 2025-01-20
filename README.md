@@ -4,7 +4,7 @@ Faucets for cryptocurrency chains
 # where is data located
 Data is located in specific folders, for evm chains in `evm` folder
 
-# example of configuration found in `evm/11155111.json`
+# example of configuration found in `evm/eth_sepolia.json`
 ```
 {
     "name": "Sepolia",
