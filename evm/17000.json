@@ -1,0 +1,32 @@
+{
+    "name": "Holesky",
+    "title": "Ethereum Testnet Holesky",
+    "chain": "Ethereum",
+    "rpc": [
+        "https://ethereum-holesky-rpc.publicnode.com"
+    ],
+    "faucets": [
+        {
+            "name": "google cloud eth holesky faucet",
+            "url": "https://cloud.google.com/application/web3/faucet/ethereum/holesky",
+            "requirements": "google email account",
+            "limits": [
+                "1 holesky testnet ETH",
+                "Each Google Account and wallet address gets one drip on Holesky every 1 day."
+            ]
+        }
+    ],
+    "native_currency": {
+        "name": "holesky testnet ETH",
+        "symbol": "ETH",
+        "decimals": 18
+    },
+    "info_url": "https://holesky.etherscan.io",
+    "chain_id": 17000,
+    "explorers": [
+        {
+            "name": "etherscan-holesky",
+            "url": "https://holesky.etherscan.io"
+        }
+    ]
+}
