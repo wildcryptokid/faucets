@@ -1,0 +1,32 @@
+{
+    "name": "Dukong",
+    "title": "Mantra Testnet Dukong",
+    "chain": "Mantra",
+    "rpc": [
+        "https://mantra-testnet-rpc.publicnode.com/"
+    ],
+    "faucets": [
+        {
+            "name": "google cloud mantra dukong faucet",
+            "url": "https://cloud.google.com/application/web3/faucet/mantra/dukong",
+            "requirements": "google email account",
+            "limits": [
+                "0.1 dukong testnet OM",
+                "Each Google Account and wallet address gets one drip on Dukong every 1 day."
+            ]
+        }
+    ],
+    "native_currency": {
+        "name": "dukong testnet OM",
+        "symbol": "OM",
+        "decimals": 18
+    },
+    "info_url": "https://explorer.mantrachain.io/MANTRA-Dukong/tx",
+    "chain_id": "unknown",
+    "explorers": [
+        {
+            "name": "mantra-dukong",
+            "url": "https://explorer.mantrachain.io/MANTRA-Dukong/tx"
+        }
+    ]
+}
