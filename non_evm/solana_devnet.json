@@ -1,0 +1,31 @@
+{
+    "name": "Devnet",
+    "title": "Solana Testnet/Devnet",
+    "chain": "Solana",
+    "rpc": [
+        "https://api.devnet.solana.com/"
+    ],
+    "faucets": [
+        {
+            "name": "solana playground",
+            "url": "https://beta.solpg.io/",
+            "requirements": "deploy a contract in solana devnet playground",
+            "limits": [
+                "unknown at this time"
+            ]
+        }
+    ],
+    "native_currency": {
+        "name": "solana devnet currency",
+        "symbol": "SOL",
+        "decimals": 9
+    },
+    "info_url": "https://explorer.solana.com/?cluster=devnet",
+    "chain_id": "solana",
+    "explorers": [
+        {
+            "name": "solana-devnet",
+            "url": "https://explorer.solana.com/?cluster=devnet"
+        }
+    ]
+}
